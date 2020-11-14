@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="ApparelArmorHelmetPowerBase">
+        <defName>RO-OWPA_Apparel_X01Helmet</defName>
+        <label>X-01 helmet</label>
+        <description>placeholder</description>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/X01Helmet/X01Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <apparel>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/X01Helmet/X01Helmet</wornGraphicPath>
+            <useWornGraphicMask>True</useWornGraphicMask>
+        </apparel>
+        <statBases>
+            <WorkToMake>21000</WorkToMake>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>1.5</Mass>
+            <Flammability>0.4</Flammability>
+            <ArmorRating_Sharp>1.06</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.74</ArmorRating_Heat>
+            <Insulation_Cold>16</Insulation_Cold>
+            <Insulation_Heat>3</Insulation_Heat>
+            <EquipDelay>4</EquipDelay>
+            <MarketValue>1880</MarketValue>
+        </statBases>
+    </ThingDef>
+
+</Defs>
